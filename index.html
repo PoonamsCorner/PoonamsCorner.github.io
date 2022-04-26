@@ -5,14 +5,49 @@
         <title>Poonams Corner</title>
         <style>
           #title{
-              font-family:Georgia;
-              background:rgb(242, 220, 242);
+              font-family:Fantasy;
+              background:rgb(207, 207, 207);
+              color:rgb(130, 86, 130);
+              border:9px groove rgb(191, 91, 191);
+              margin-right:-7px;
+              margin-left:-8px;
+              text-align:center;
           }  
           #header{
-              background:rgb;
+              background:rgb(193, 188, 204);
           }
           body{
-              background:rgb(223, 233, 240);
+              background:rgb(255, 229, 242);
+          }
+          .p{
+              font-family:monospace;
+              text-align:center;
+          }
+          .rich{
+              font-family:serif;
+              border-top:0.5px solid grey;
+              padding-top:3px;
+               border-bottom:0.5px solid grey;
+              padding-bottom:3px;
+          }
+          #avo{
+              font-family:sans-serif;
+              background:rgb(144, 199, 152);
+              border:8px double white;
+              padding-top:7px;
+              margin-right:175px;
+              margin-left:175px;
+              text-align:center;
+          }
+          #pas{
+              font-family:sans-serif;
+              background:rgb(204, 49, 106);
+              border:8px double white;
+              padding-top:7px;
+              padding-bottom:7px;
+              margin-right:175px;
+              margin-left:175px;
+              text-align:center;
           }
         </style>
     </head>
@@ -23,14 +58,23 @@
         
         <h2>Menu</h2>
         <ul>
-            <li>Avocado Toast
+        <a href="#avo"><li>Avocado Toast</a>
             <li>Pasta
             <li>Salad
             <li>Energy Bites
             <li>Burrito Bowl
+            <li>Veggie Wrap
+            <li>Soup
+            <li>Berry Bread
         </ul>
-        <h3>Avocado Toast</h3>
-        <p><b>Made with:</b> </p>
+        <h3 id="avo">Avocado Toast</h3>
+        <p class="p"><strong>Made with:        </strong> 
+        Whole grain bread + Avocado <br><br>
+        <em class="rich">Rich in: Fats, Sugars          , Starch's, Vitamins, Minerals + Fibre </em></p>  
         
+        <h3 id="pas">Pasta</h3>
+        <p class="p"><strong>Made with:        </strong> 
+        Whole grain pasta, cheese, sauce +           veggies<br><br>
+        <em class="rich">Rich in: Fats, Sugars          , Starch's, Vitamins, Minerals,              Carbs + Calcium </em></p>  
     </body>
 </html>
